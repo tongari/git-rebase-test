@@ -44,3 +44,7 @@ http://www.backlog.jp/git-guide/stepup/stepup2_8.html
  git push -d origin {ブランチ名}
  ```
 
+- カレントのブランチに別ブランチをマージする
+ ```bash
+ git merge {取り込みたいブランチ名}
+ ```
