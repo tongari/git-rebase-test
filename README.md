@@ -34,3 +34,13 @@ http://www.backlog.jp/git-guide/stepup/stepup2_8.html
  git checkout -b {新しいブランチ名}
  ```
 
+- ローカルブランチを削除
+ ```bash
+ git branch -d {ブランチ名}
+ ```
+
+- リモートブランチ作成
+ ```bash
+ git push --delete origin {ブランチ名}
+ ```
+
