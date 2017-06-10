@@ -48,3 +48,13 @@ http://www.backlog.jp/git-guide/stepup/stepup2_8.html
  ```bash
  git merge {取り込みたいブランチ名}
  ```
+
+- ステージに配置していないものを元に戻す
+```
+$ git reset --hard HEAD
+```
+
+- 追跡されていないファイル、ディレクトリをワークツリーから削除する。
+```
+$ git clean -fd
+```
