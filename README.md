@@ -39,8 +39,8 @@ http://www.backlog.jp/git-guide/stepup/stepup2_8.html
  git branch -d {ブランチ名}
  ```
 
-- リモートブランチ作成
+- リモートブランチを削除
  ```bash
- git push --delete origin {ブランチ名}
+ git push -d origin {ブランチ名}
  ```
 
