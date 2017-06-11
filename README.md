@@ -1,4 +1,6 @@
-# リベースの主要コマンド（たぶん）
+#　DIC勉強会用
+
+## リベースの主要コマンド（たぶん）
 
 - {取り入れたいブランチ名}を{現在いるブランチ}に取り込む
  ```bash 
@@ -15,14 +17,14 @@
  git rebase --abort
  ```
 
-# 参考サイト
+## 参考サイト
 
 http://www.backlog.jp/git-guide/stepup/stepup1_4.html
 
 http://www.backlog.jp/git-guide/stepup/stepup2_8.html
 
 
-# その他gitコマンド
+## その他gitコマンド
 
 - ブランチ切り替え
  ```bash
